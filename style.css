@@ -1,0 +1,74 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background-color: rgb(0, 150, 140);
+    color: #fff9f9;
+  }
+  
+  nav {
+    background-color: #222;
+    padding: 10px 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .hero {
+    background: url('https://shorturl.at/hrGPF') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #c49b66;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+  
+  section {
+    padding: 40px 20px;
+  }
+  
+  .room, .gallery-grid img {
+    margin: 15px 0;
+  }
+  
+  .gallery img {
+    width: 100%;
+    height: auto;
+    display: block; /* Prevents inline spacing issues */
+  }
+  
+  
+  form input, form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    background-color: #c49b66;
+    color: white;
+    border: none;
+  }
+  
